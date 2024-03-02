@@ -1,0 +1,3 @@
+errors to solve
+
+1. signup.html oor viewusers.html mai aik hi js ki file hy too document.getelementbyid krty hain to wo error deta hy ky konsy page ki baat kr ra oor wo jis current page py hota hy waha us ko wo id nai milti likin function call ho jata hy 

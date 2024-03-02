@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerece - Admin Page</title>
+    <link rel="stylesheet" href="../static/css2/EditContactUs.css">
+    <script src="https://kit.fontawesome.com/a141da9c1d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div id="logo">
+                <img src="../static/images/logo.png" alt="Logo">
+
+            </div>
+
+            <div id="links">
+                <a href="./adminpage.html">DashBoard</a>
+                <a href="./AddProduct.html">Add Products</a>
+                <a href="./ViewContacts.html">View Contacts</a>
+                <a href="./EditContactUs.html">Edit ContactUs</a>
+                <!-- <a href="./contactus.html">Contact Us</a> -->
+            </div>
+
+            <!-- <div id="signup_button">
+                <a href="./Signup.html">Sign Up</a>
+            </div> -->
+        </div>
+    </header>
+
+    <main>
+        <div id="contactusform">
+            <div id="contactinfo">
+                <h2>Contact Info</h2>
+                <p><i class="fa-solid fa-location-dot"></i>&nbsp <span id="address"></span> </p>
+                <p><i class="fa-solid fa-envelope"></i>&nbsp <span id="email"></span></p>
+                <p> <i class="fa-solid fa-phone"></i>&nbsp <span id="phone"></span></p>
+               
+            </div>
+            <form id="editcontacttable">
+                <h1>Edit Contact Info</h1>
+
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address1">
+
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email1">
+
+
+                <label for="phonenumber">Phone Number</label>
+                <input type="text" name="phonenumber" id="phonenumber">
+
+
+                <Button class="UpdateButton" onclick="ChangeContactInfo()">Update</Button>
+            </form>
+            
+        </div>
+    </main>
+
+    <footer>
+        <div class="footerlogos">
+            <a href="https://facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/irtaza-manzoor-37a20a273/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="../static/JS2/editcontactbackend.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
+</body>
+
+</html>

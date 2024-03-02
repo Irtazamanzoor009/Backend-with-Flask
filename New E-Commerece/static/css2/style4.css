@@ -1,0 +1,123 @@
+body
+{
+    background-color: #D4E7C5;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar
+{
+    background-color: whitesmoke;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px 5px 5px;
+    flex-wrap: wrap;
+
+}
+
+#logo
+{
+    float: left;
+    cursor: pointer;
+}
+
+#logo img{
+    height: 70px;
+    padding-left: 20px;
+
+}
+
+#links
+{
+    text-align: center;
+}
+
+#links a{
+    color: #294B29;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+#links a:hover
+{
+    background-color: #D4E7C5;
+    border-radius: 10px;
+}
+
+#signup_button a
+{
+    background-color: white;
+    border-radius: 10px;
+    color: #294B29;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+
+}
+
+#signup_button a:hover{
+    background-color: #BFD8AF;
+    border-radius: 10px;
+}
+
+
+.footerlogos i
+{
+    font-size: 30px;   
+    margin-right: 10px;
+    padding-left: 20px;
+    gap: 20px; 
+    color: #12372A;
+}
+
+.footerlogos
+{    
+    /* display: flex; */
+    justify-content: flex-end;
+    align-items: center;
+    /* position: relative; */
+    height: 50px;
+    bottom: 0px;
+    width: 100%;
+    
+}
+
+/* footer
+{
+    position: relative;
+    /* background-color: yellow; */
+    /* height: 50px;
+    bottom: 0;
+    width: 100%; */
+    
+
+table
+{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+th, td {
+    padding: 20px; 
+    /* border: 2px solid black; */
+}
+
+#container
+{
+    border-radius: 20px;
+    background-color: white;
+    justify-content: center;
+    width: auto;
+    margin: 20px auto;
+    width: fit-content;
+    min-height: 80vh;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+body {
+    background-color: #D4E7C5;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    background-color: whitesmoke;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px 5px 5px;
+    flex-wrap: wrap;
+}
+
+#logo img {
+    max-height: 70px;
+    margin-left: 20px; 
+}
+
+#links {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#links a {
+    margin: 0 10px;
+    text-decoration: none;
+
+    color: #294B29;
+    padding: 15px;
+    display: inline-block;
+}
+
+#links a:hover {
+    background-color: #D4E7C5;
+    border-radius: 10px;
+}
+
+
+
+.footerlogos i
+{
+    font-size: 30px;   
+    margin-right: 10px;
+    padding-left: 20px;
+    gap: 20px; 
+    color: #12372A;
+}
+
+footer
+{
+    position: relative;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+#login_menu
+{
+    font-size: 15px;
+    /* text-align: center; */
+    max-width: 400px;    
+    margin: 20px auto;
+    /* margin-bottom: 100px; */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px #294B29;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 10px;
+    color: #12372A;
+}
+#login_menu form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login_menu label {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#login_menu input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.AddButton
+{
+    background-color: #294B29;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.AddButton:hover
+{
+    background-color: #bfd8af;
+    color: #294B29;
+}
+
+
+
+
+
+
+
+

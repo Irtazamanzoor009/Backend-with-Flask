@@ -1,0 +1,219 @@
+body {
+    background-color: #d4e7c5;
+    margin: 0px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px 5px 5px;
+    flex-wrap: wrap;
+}
+
+#logo {
+    float: left;
+    cursor: pointer;
+}
+
+#logo img {
+    height: 70px;
+    padding-left: 20px;
+}
+
+#links {
+    text-align: center;
+}
+
+#links a {
+    color: #294b29;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+#links a:hover {
+    background-color: #d4e7c5;
+    border-radius: 10px;
+}
+
+#signup_button a {
+    background-color: white;
+    border-radius: 10px;
+    color: #294b29;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+#signup_button a:hover {
+    background-color: #bfd8af;
+    border-radius: 10px;
+}
+
+#login_menu {
+    /* text-align: center; */
+    max-width: 400px;
+    margin: 60px auto;
+    /* margin-bottom: 100px; */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px #294b29;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 10px;
+    color: #12372a;
+}
+
+#login_menu form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login_menu label {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#login_menu input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#SignUpButton {
+    margin-top: 20px;
+    background-color: #294b29;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+}
+
+#SignUpButton:hover {
+    background-color: #bfd8af;
+    color: #294b29;
+}
+
+.rolee {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.opt {
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#remember {
+    display: flex;
+    margin-right: auto;
+    /* padding-left: 10px; */
+}
+
+.footerlogos i {
+    font-size: 30px;
+    margin-right: 10px;
+    padding-left: 20px;
+    gap: 20px;
+    color: #12372a;
+}
+
+footer {
+    position: fixed;
+    /* background-color: yellow; */
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ------- */
+
+.overlay {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    z-index: -1;
+    /* Ensure it covers other elements */
+    opacity: 0;
+    transition: opacity 0.5s;
+    /* Transition only opacity */
+}
+
+.showoverlay {
+    opacity: 1;
+}
+
+.message {
+    background-color: white;
+    border-radius: 15px;
+    width: 30vw;
+    height: 30vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 3px grey;
+    z-index: 2;
+    /* Ensure it's above overlay */
+    opacity: 0;
+    transition: opacity 0.5s, top 0.5s;
+    /* Transition opacity and top */
+}
+
+.showmessage {
+    opacity: 1;
+    top: 50%;
+}
+
+.content {
+    font-size: 20px;
+}
+
+.signedup {
+    float: left;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+}
+
+#btn {
+    float: right;
+    position: absolute;
+    top: 60%;
+    left: 65%;
+}
+
+.message button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+.message span {
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    color: white;
+    float: right;
+    line-height: 30px;
+    font-size: 40px;
+    text-align: center;
+    top: 0px;
+    cursor: pointer;
+}

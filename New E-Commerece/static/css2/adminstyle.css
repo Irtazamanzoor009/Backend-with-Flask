@@ -1,0 +1,147 @@
+body {
+    background-color: #D4E7C5;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+    background-color: whitesmoke;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px 5px 5px;
+    flex-wrap: wrap;
+}
+
+#logo img {
+    max-height: 70px;
+    margin-left: 20px; 
+}
+
+#links {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#links a {
+    margin: 0 10px;
+    text-decoration: none;
+
+    color: #294B29;
+    padding: 15px;
+    display: inline-block;
+}
+
+#links a:hover {
+    background-color: #D4E7C5;
+    border-radius: 10px;
+}
+
+
+table
+{
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+th, td {
+    padding: 20px; 
+}
+
+.container
+{
+    border-radius: 20px;
+    background-color: white;
+    justify-content: center;
+    width: auto;
+    margin: 20px auto;
+    width: fit-content;
+    min-height: 80vh;
+    max-width: 90vw;
+    min-width: 70%;
+}
+
+.container1
+{
+    border-radius: 20px;
+    background-color: white;
+    justify-content: center;
+    width: auto;
+    margin: 20px auto;
+    width: fit-content;
+    min-height: 80vh;
+    max-width: 70vw;
+    min-width: 40%;
+    /* align-items: center; */
+}
+
+.footerlogos i
+{
+    font-size: 30px;   
+    margin-right: 10px;
+    padding-left: 20px;
+    gap: 20px; 
+    color: #12372A;
+}
+
+footer
+{
+    position: relative;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.UpdateButton
+{
+    background-color: lightgreen;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 13px;
+    cursor: pointer;
+}
+
+.UpdateButton:hover
+{
+    background-color: greenyellow;
+}
+
+.DeleteButton
+{
+    background-color: orangered;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 13px;
+    cursor: pointer;
+}
+
+.DeleteButton:hover
+{
+    background-color: orange;
+}
+
+
+#logout
+{
+    background-color: grey;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 13px;
+    cursor: pointer;
+}
+
+#logout:hover
+{
+    background-color: gainsboro;
+}

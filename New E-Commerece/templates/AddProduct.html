@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerece - Admin Page</title>
+    <link rel="stylesheet" href="../static/css2/AddProductStyle.css">
+    <script src="https://kit.fontawesome.com/a141da9c1d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div id="logo">
+                <img src="../static/images/logo.png" alt="Logo">
+
+            </div>
+
+            <div id="links">
+                <a href="./adminpage.html">DashBoard</a>
+                <a href="./AddProduct.html">Add Products</a>
+                <a href="./ViewContacts.html">View Contacts</a>
+                <a href="./EditContactUs.html">Edit ContactUs</a>
+                <!-- <a href="./contactus.html">Contact Us</a> -->
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="login_menu">
+            <form id="productinfo">
+                <h1>Add Product</h1>
+                <label for="pid">Product ID</label>
+                <input type="text" name="pid" id="pid" required>
+
+                <label for="productname">Product Name</label>
+                <input type="text" name="productname" id="productname" required>
+                
+                <label for="productdescription">Product Description</label>
+                <input type="text" name="productdescription" id="productdescription" required>
+
+                <label for="productprice">Product Price</label>
+                <input type="text" name="productprice" id="productprice" required>
+
+                <label for="productquantity">Product Quantity</label>
+                <input type="text" name="productquantity" id="productquantity" required>
+
+                <Button class="AddButton" onclick="AddProduct()">Add</Button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footerlogos">
+            <a href="https://facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/irtaza-manzoor-37a20a273/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="../static/JS2/Productsbackend.js"></script>
+</body>
+
+</html>

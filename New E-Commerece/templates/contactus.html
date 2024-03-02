@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css2/style2.css">
+    <script src="https://kit.fontawesome.com/a141da9c1d.js" crossorigin="anonymous"></script>
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div id="logo">
+                <a href="./index.html"><img src="../static/images/logo.png" alt="Logo"></a>
+
+            </div>
+
+            <div id="links">
+                <a href="./index.html">Home</a>
+                <a href="./products.html">Products</a>
+                <a href="./aboutus.html">About</a>
+                <a href="./contactus.html">Contact Us</a>
+            </div>
+
+            <div id="signup_button">
+                <a href="./Signup.html">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="contactusform">
+            <div id="contactinfo">
+                <h2>Contact Info</h2>
+                <p><i class="fa-solid fa-location-dot"></i>&nbsp <span id="address"></span> </p>
+                <p><i class="fa-solid fa-envelope"></i>&nbsp <span id="email"></span></p>
+                <p> <i class="fa-solid fa-phone"></i>&nbsp <span id="phone"></span></p>
+               
+            </div>
+            <form id="contactus">
+                <h1>Send a Message</h1>
+
+
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" required>
+
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" required>
+
+
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email1" required>
+
+                <label for="mobilenumber">Mobile Number</label>
+                <input type="text" name="mobilenumber" id="mobilenumber" required>
+
+                <label for="message">Write Your Message Here</label>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+                <Button id="SubmitButton" onclick="AddComment()">Submit</Button>
+            </form>
+            
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footerlogos">
+            <a href="https://facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/irtaza-manzoor-37a20a273/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="../static/js2/Contactbackend.js"></script>
+    <script src="../static/js2/editcontactbackend.js"></script>
+</body>
+
+</html>

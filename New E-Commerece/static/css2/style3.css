@@ -1,0 +1,135 @@
+body
+{
+    background-color: #D4E7C5;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar
+{
+    background-color: whitesmoke;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px 5px 5px;
+    flex-wrap: wrap;
+
+}
+
+#logo
+{
+    float: left;
+    cursor: pointer;
+}
+
+#logo img{
+    height: 70px;
+    padding-left: 20px;
+
+}
+
+#links
+{
+    text-align: center;
+}
+
+#links a{
+    color: #294B29;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+#links a:hover
+{
+    background-color: #D4E7C5;
+    border-radius: 10px;
+}
+
+#signup_button a
+{
+    background-color: white;
+    border-radius: 10px;
+    color: #294B29;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+
+}
+
+#signup_button a:hover{
+    background-color: #BFD8AF;
+    border-radius: 10px;
+}
+
+
+.footerlogos i
+{
+    font-size: 30px;   
+    margin-right: 10px;
+    padding-left: 20px;
+    gap: 20px; 
+    color: #12372A;
+}
+
+footer
+{
+    position: fixed;
+    /* background-color: yellow; */
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    
+}
+h5{
+    color: red;
+    margin-top: 0px;
+}
+#about
+{
+    /* background-color: red; */
+    width: 1000px;
+    height: 500px;
+    margin: 60px auto;
+    display: flex;
+}
+#content
+{
+    /* background-color: yellow; */
+    width: 500px;
+    height: 300px;
+    /* flex: 1;  */
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px; 
+    
+
+}
+
+#aboutusimage img
+{
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    /* float: right; */
+    margin-top: 50px;
+    margin-left: 100px;
+    /* position: absolute; */
+
+     
+}
+
+#about h1{
+    margin-top: 30px;
+}
+#about p
+{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+

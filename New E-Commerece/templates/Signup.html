@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../static/css2/style.css">
+    <script src="https://kit.fontawesome.com/a141da9c1d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div id="logo">
+                <a href="./index.html"><img src="../static/images/logo.png" alt="Logo"></a>
+
+            </div>
+
+            <div id="links">
+                <a href="./index.html">Home</a>
+                <a href="./products.html">Products</a>
+                <a href="./aboutus.html">About</a>
+                <a href="./contactus.html">Contact Us</a>
+            </div>
+
+            <div id="signup_button">
+                <a href="./Signup.html">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+
+        <div id="login_menu">
+            <form id="userform">
+                <h1>Sign Up</h1>
+                <label for="username">Username</label>
+                <input type="text" name="Username" id="username" required>
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+
+                <label for="role">Role</label>
+                <select name="options" id="options" class="rolee">
+                    <option value="admin" class="opt">Admin</option>
+                    <option value="user" class="opt">User</option>
+                </select>
+
+                <!-- <label for="remember" id="remember"><input type="checkbox" name="remember" id="remember"> &nbsp Remember Me</label> -->
+
+                <!-- <input type="submit" name="signup" id="login" value="Sign Up" onclick="SignUp()"> -->
+                <Button id="SignUpButton" onclick="SignUp()">Sign Up</Button>
+
+
+            </form>
+            <!-- <div class="overlay"></div>
+            <div class="message">
+                <div>
+                    <span onclick="HideModal()">&times;</span>
+                </div>
+                <div class="content">
+                    <div class="signedup">
+                        You Signed Up Successfully.
+                    </div>
+                    <div id="btn">
+                        <button onclick="HideModal()">Ok</button>
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <div class="footerlogos">
+            <a href="https://facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/irtaza-manzoor-37a20a273/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="../static/js2/signupbackend.js"></script>
+</body>
+
+</html>
